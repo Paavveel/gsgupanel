@@ -1,0 +1,57 @@
+import React from 'react';
+// import Swiper core and required modules
+import { Navigation, Pagination, A11y, Autoplay } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
+
+function Home() {
+  return (
+    <div className='main-page'>
+      <Swiper
+        // install Swiper modules
+        modules={[Navigation, Pagination, Autoplay, A11y]}
+        loop={true}
+        slidesPerView={1}
+        autoplay={{
+          delay: 4000,
+          disableOnInteraction: false,
+        }}
+        spaceBetween={30}
+        navigation={true}
+        pagination={{
+          type: 'fraction',
+        }}
+      >
+        <SwiperSlide>
+          <img
+            src='https://via.placeholder.com/2000x2000'
+            alt=''
+            className='slide'
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src='https://via.placeholder.com/2000x2000'
+            alt=''
+            className='slide'
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src='https://via.placeholder.com/2000x2000'
+            alt=''
+            className='slide'
+          />
+        </SwiperSlide>
+      </Swiper>
+    </div>
+  );
+}
+
+export default Home;

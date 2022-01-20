@@ -1,0 +1,56 @@
+.app {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main-header {
+  height: 20vh;
+  padding: 2rem;
+  background-color: #a60016;
+  display: flex;
+  align-items: center;
+}
+
+.main-header h1 {
+  margin: 0;
+  margin-left: 6rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.main-sidemenu {
+  background-color: #a60016;
+  color: #fff;
+  width: 20%;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+  box-shadow: -43px 0px 31px 2px rgba(3, 17, 28, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.main-sidemenu a {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 2rem 0 2rem 2rem;
+  border-bottom: 1px #630714 solid;
+}
+
+.main-sidemenu a.active {
+  background-color: #630714;
+  box-shadow: 0px 0px 10px 2px rgba(165, 0, 22, 0.2) inset;
+}
+
+.main-page {
+  width: 80%;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  height: 80vh;
+}
