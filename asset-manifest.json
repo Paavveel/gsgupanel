@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/gsgupanel/static/css/main.3467c757.css",
+    "main.js": "/gsgupanel/static/js/main.cfb1e1db.js",
+    "static/media/gsgu-logo.png": "/gsgupanel/static/media/gsgu-logo.6c13ad215bb4c18d3ca1.png",
+    "index.html": "/gsgupanel/index.html",
+    "main.3467c757.css.map": "/gsgupanel/static/css/main.3467c757.css.map",
+    "main.cfb1e1db.js.map": "/gsgupanel/static/js/main.cfb1e1db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3467c757.css",
+    "static/js/main.cfb1e1db.js"
+  ]
+}
