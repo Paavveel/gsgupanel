@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className='main-header'>
       <Link to='/'>
-        <img height={200} width={150} src={logo} alt='GSGU logo' />
+        <img height={150} width={150} src={logo} alt='GSGU logo' />
       </Link>
 
       <h1>Учебно-методическая работа</h1>
