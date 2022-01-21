@@ -59,6 +59,7 @@
 }
 
 .slide {
-  width: 100%;
+  width: 80%;
   height: calc(100vh - 200px);
+  margin-left: 10%;
 }

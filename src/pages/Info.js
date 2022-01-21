@@ -4,7 +4,7 @@ import { Navigation, Pagination, A11y, Autoplay } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import vestnik from '../img/vestnik.jpg';
+import info1 from '../img/info-1.jpg';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -31,7 +31,7 @@ function Info() {
         }}
       >
         <SwiperSlide>
-          <img src={vestnik} alt='vestnik' className='slide' />
+          <img src={info1} alt='vestnik' className='slide' />
         </SwiperSlide>
       </Swiper>
     </div>
