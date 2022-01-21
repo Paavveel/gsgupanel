@@ -1,11 +1,7 @@
 import React from 'react';
 
 function EduCuality() {
-  return (
-    <div>
-      <h1>EduCuality</h1>
-    </div>
-  );
+  return <div className='main-page'></div>;
 }
 
 export default EduCuality;
