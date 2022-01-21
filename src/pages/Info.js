@@ -17,21 +17,21 @@ function Info() {
       <Swiper
         // install Swiper modules
         modules={[Navigation, Pagination, Autoplay, A11y]}
-        loop={true}
-        slidesPerView={1}
-        speed={1000}
+        // loop={true}
+        // slidesPerView={1}
+        // speed={1000}
         // autoplay={{
         //   delay: 5000,
         //   disableOnInteraction: false,
         // }}
-        spaceBetween={30}
-        navigation={true}
-        pagination={{
-          type: 'fraction',
-        }}
+        // spaceBetween={30}
+        // navigation={true}
+        // pagination={{
+        //   type: 'fraction',
+        // }}
       >
         <SwiperSlide>
-          <img src={info1} alt='vestnik' className='slide' />
+          <img src={info1} alt='info1' className='slide' />
         </SwiperSlide>
       </Swiper>
     </div>
