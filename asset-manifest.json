@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/gsgupanel/static/css/main.44c5dd6c.css",
-    "main.js": "/gsgupanel/static/js/main.a7f423c6.js",
+    "main.css": "/gsgupanel/static/css/main.f16e269d.css",
+    "main.js": "/gsgupanel/static/js/main.f8a1179a.js",
+    "static/media/vestnik.jpg": "/gsgupanel/static/media/vestnik.5109418c2be38b440ace.jpg",
     "static/media/gsgu-logo.png": "/gsgupanel/static/media/gsgu-logo.6c13ad215bb4c18d3ca1.png",
     "index.html": "/gsgupanel/index.html",
-    "main.44c5dd6c.css.map": "/gsgupanel/static/css/main.44c5dd6c.css.map",
-    "main.a7f423c6.js.map": "/gsgupanel/static/js/main.a7f423c6.js.map"
+    "main.f16e269d.css.map": "/gsgupanel/static/css/main.f16e269d.css.map",
+    "main.f8a1179a.js.map": "/gsgupanel/static/js/main.f8a1179a.js.map"
   },
   "entrypoints": [
-    "static/css/main.44c5dd6c.css",
-    "static/js/main.a7f423c6.js"
+    "static/css/main.f16e269d.css",
+    "static/js/main.f8a1179a.js"
   ]
 }
