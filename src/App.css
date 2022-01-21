@@ -53,6 +53,11 @@
   overflow: hidden;
 }
 
+.main-page iframe {
+  width: 100%;
+  height: calc(100vh - 200px);
+}
+
 .slide {
   width: 100%;
   height: calc(100vh - 200px);

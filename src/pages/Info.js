@@ -4,6 +4,7 @@ import { Navigation, Pagination, A11y, Autoplay } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+import vestnik from '../img/vestnik.jpg';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -19,10 +20,10 @@ function Info() {
         loop={true}
         slidesPerView={1}
         speed={1000}
-        autoplay={{
-          delay: 5000,
-          disableOnInteraction: false,
-        }}
+        // autoplay={{
+        //   delay: 5000,
+        //   disableOnInteraction: false,
+        // }}
         spaceBetween={30}
         navigation={true}
         pagination={{
@@ -30,11 +31,7 @@ function Info() {
         }}
       >
         <SwiperSlide>
-          <img
-            src='https://via.placeholder.com/2000x2000'
-            alt=''
-            className='slide'
-          />
+          <img src={vestnik} alt='vestnik' className='slide' />
         </SwiperSlide>
       </Swiper>
     </div>
