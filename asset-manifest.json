@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/gsgupanel/static/css/main.7eb28908.css",
-    "main.js": "/gsgupanel/static/js/main.31230292.js",
+    "main.css": "/gsgupanel/static/css/main.44c5dd6c.css",
+    "main.js": "/gsgupanel/static/js/main.a7f423c6.js",
     "static/media/gsgu-logo.png": "/gsgupanel/static/media/gsgu-logo.6c13ad215bb4c18d3ca1.png",
     "index.html": "/gsgupanel/index.html",
-    "main.7eb28908.css.map": "/gsgupanel/static/css/main.7eb28908.css.map",
-    "main.31230292.js.map": "/gsgupanel/static/js/main.31230292.js.map"
+    "main.44c5dd6c.css.map": "/gsgupanel/static/css/main.44c5dd6c.css.map",
+    "main.a7f423c6.js.map": "/gsgupanel/static/js/main.a7f423c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.7eb28908.css",
-    "static/js/main.31230292.js"
+    "static/css/main.44c5dd6c.css",
+    "static/js/main.a7f423c6.js"
   ]
 }
