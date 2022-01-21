@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/gsgupanel/static/css/main.321c1a00.css",
-    "main.js": "/gsgupanel/static/js/main.f290c83f.js",
+    "main.css": "/gsgupanel/static/css/main.50bbddbc.css",
+    "main.js": "/gsgupanel/static/js/main.a4b83cc7.js",
+    "static/media/docs-1.jpg": "/gsgupanel/static/media/docs-1.9ee7d1148116b616d827.jpg",
     "static/media/info-1.jpg": "/gsgupanel/static/media/info-1.1fea16cf2c765145334f.jpg",
+    "static/media/proj-2.jpg": "/gsgupanel/static/media/proj-2.93273da99ded4e506e30.jpg",
     "static/media/gsgu-logo.png": "/gsgupanel/static/media/gsgu-logo.6c13ad215bb4c18d3ca1.png",
+    "static/media/tech-1.jpg": "/gsgupanel/static/media/tech-1.d46656a7dd03847d3c22.jpg",
+    "static/media/proj-1.jpg": "/gsgupanel/static/media/proj-1.916942da31c0d6a3f824.jpg",
+    "static/media/tech-3.jpg": "/gsgupanel/static/media/tech-3.4c2ce5c73acaa4a7ead9.jpg",
+    "static/media/tech-2.jpg": "/gsgupanel/static/media/tech-2.7ad95f6e56ab6bd24084.jpg",
+    "static/media/abitur-1.jpg": "/gsgupanel/static/media/abitur-1.b137cd521e885c0564ad.jpg",
     "index.html": "/gsgupanel/index.html",
-    "main.321c1a00.css.map": "/gsgupanel/static/css/main.321c1a00.css.map",
-    "main.f290c83f.js.map": "/gsgupanel/static/js/main.f290c83f.js.map"
+    "main.50bbddbc.css.map": "/gsgupanel/static/css/main.50bbddbc.css.map",
+    "main.a4b83cc7.js.map": "/gsgupanel/static/js/main.a4b83cc7.js.map"
   },
   "entrypoints": [
-    "static/css/main.321c1a00.css",
-    "static/js/main.f290c83f.js"
+    "static/css/main.50bbddbc.css",
+    "static/js/main.a4b83cc7.js"
   ]
 }
