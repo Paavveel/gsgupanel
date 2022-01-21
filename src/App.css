@@ -6,7 +6,6 @@
 
 .main-header {
   height: 200px;
-  /* padding: 70px; */
   padding-left: 70px;
   background-color: #a60016;
   display: flex;
@@ -14,7 +13,7 @@
 }
 
 .main-header h1 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
   margin: 0;
   margin-left: 150px;
