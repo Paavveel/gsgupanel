@@ -6,6 +6,8 @@ import { Routes, Route } from 'react-router-dom';
 // Components
 import Home from './pages/Home';
 import Info from './pages/Info';
+import Structur from './pages/Structur';
+import EduProcess from './pages/EduProcess';
 import Docs from './pages/Docs';
 import Abitur from './pages/Abitur';
 import Projects from './pages/Projects';
@@ -21,6 +23,8 @@ function App() {
       <Route path='/' element={<Layout />}>
         <Route index element={<Home />} />
         <Route path='info' element={<Info />} />
+        <Route path='structur' element={<Structur />} />
+        <Route path='eduprocess' element={<EduProcess />} />
         <Route path='docs' element={<Docs />} />
         <Route path='abitur' element={<Abitur />} />
         <Route path='projects' element={<Projects />} />
