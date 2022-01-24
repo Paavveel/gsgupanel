@@ -79,3 +79,14 @@
   width: fit-content;
   margin-bottom: 10px;
 }
+
+.eduprocess {
+  display: flex;
+  flex-direction: column;
+}
+
+.eduprocess a {
+  font-size: 60px;
+  width: fit-content;
+  margin-bottom: 10px;
+}
