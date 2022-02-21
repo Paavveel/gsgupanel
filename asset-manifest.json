@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gsgupanel/static/css/main.a85aa73e.css",
+    "main.css": "/gsgupanel/static/css/main.92f9f9e7.css",
     "main.js": "/gsgupanel/static/js/main.bb8ef793.js",
     "static/media/main-ymy5.jpg": "/gsgupanel/static/media/main-ymy5.875ebe7e6f8aeb7968ff.jpg",
     "static/media/main-ymy3.jpg": "/gsgupanel/static/media/main-ymy3.cda5bbabc6055af2b3ee.jpg",
@@ -22,11 +22,11 @@
     "static/media/abitur-1.jpg": "/gsgupanel/static/media/abitur-1.b137cd521e885c0564ad.jpg",
     "static/media/educuality-3.jpg": "/gsgupanel/static/media/educuality-3.2fb357cff9ed0e332998.jpg",
     "index.html": "/gsgupanel/index.html",
-    "main.a85aa73e.css.map": "/gsgupanel/static/css/main.a85aa73e.css.map",
+    "main.92f9f9e7.css.map": "/gsgupanel/static/css/main.92f9f9e7.css.map",
     "main.bb8ef793.js.map": "/gsgupanel/static/js/main.bb8ef793.js.map"
   },
   "entrypoints": [
-    "static/css/main.a85aa73e.css",
+    "static/css/main.92f9f9e7.css",
     "static/js/main.bb8ef793.js"
   ]
 }
