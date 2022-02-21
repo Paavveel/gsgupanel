@@ -67,6 +67,7 @@
   height: calc(100vh - 300px);
   margin-left: 10%;
   margin-top: 50px;
+  object-fit: contain;
 }
 
 .structur {
