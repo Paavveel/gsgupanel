@@ -36,7 +36,13 @@
   box-shadow: -43px 0px 31px 2px rgb(3 17 28 / 30%);
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   z-index: 999;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: column;
 }
 
 .main-sidemenu a {
@@ -50,6 +56,31 @@
 .main-sidemenu a.active {
   background-color: #630714;
   box-shadow: 0px 0px 10px 2px rgba(165, 0, 22, 0.2) inset;
+}
+
+.socials-container {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+
+  padding-bottom: 20px;
+}
+
+.socials-item {
+  display: grid;
+  justify-items: center;
+}
+
+.socials-item-title {
+  text-align: center;
+  padding: 10px 0;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.socials-item img {
+  display: block;
 }
 
 .main-page {
