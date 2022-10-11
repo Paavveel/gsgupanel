@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gsgupanel/static/css/main.92f9f9e7.css",
-    "main.js": "/gsgupanel/static/js/main.6508588b.js",
+    "main.css": "/gsgupanel/static/css/main.057df11f.css",
+    "main.js": "/gsgupanel/static/js/main.2081054c.js",
     "static/media/main-ymy5.jpg": "/gsgupanel/static/media/main-ymy5.875ebe7e6f8aeb7968ff.jpg",
     "static/media/main-ymy3.jpg": "/gsgupanel/static/media/main-ymy3.cda5bbabc6055af2b3ee.jpg",
     "static/media/educuality-4.jpg": "/gsgupanel/static/media/educuality-4.70d4da272ea6a75b0452.jpg",
@@ -101,12 +101,14 @@
     "static/media/tech-2.jpg": "/gsgupanel/static/media/tech-2.7ad95f6e56ab6bd24084.jpg",
     "static/media/abitur-1.jpg": "/gsgupanel/static/media/abitur-1.b137cd521e885c0564ad.jpg",
     "static/media/educuality-3.jpg": "/gsgupanel/static/media/educuality-3.2fb357cff9ed0e332998.jpg",
+    "static/media/qr-vk.svg": "/gsgupanel/static/media/qr-vk.e92644802c9b49494cbfb004b710a608.svg",
+    "static/media/qr-tg.svg": "/gsgupanel/static/media/qr-tg.de362359674d2d570f085de0d5d3086b.svg",
     "index.html": "/gsgupanel/index.html",
-    "main.92f9f9e7.css.map": "/gsgupanel/static/css/main.92f9f9e7.css.map",
-    "main.6508588b.js.map": "/gsgupanel/static/js/main.6508588b.js.map"
+    "main.057df11f.css.map": "/gsgupanel/static/css/main.057df11f.css.map",
+    "main.2081054c.js.map": "/gsgupanel/static/js/main.2081054c.js.map"
   },
   "entrypoints": [
-    "static/css/main.92f9f9e7.css",
-    "static/js/main.6508588b.js"
+    "static/css/main.057df11f.css",
+    "static/js/main.2081054c.js"
   ]
 }
