@@ -85,7 +85,8 @@
 
 .main-page {
   width: 80%;
-  overflow: hidden;
+  overflow-y: scroll;
+  height: calc(100% - 200px);
 }
 
 .main-page iframe {
