@@ -89,11 +89,6 @@
   height: calc(100% - 200px);
 }
 
-.main-page iframe {
-  width: 100%;
-  height: calc(100vh - 200px);
-}
-
 .slide {
   width: 80%;
   height: calc(100vh - 300px);

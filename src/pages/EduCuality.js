@@ -1,21 +1,34 @@
 import React from 'react';
 // import Swiper core and required modules
-import { Navigation, Pagination, A11y, Autoplay } from 'swiper';
+import { A11y, Autoplay, Navigation, Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/autoplay';
 
-import educuality1 from '../img/educuality-1.jpg';
-import educuality2 from '../img/educuality-2.jpg';
-import educuality3 from '../img/educuality-3.jpg';
-import educuality4 from '../img/educuality-4.jpg';
+import educuality1 from '../img/EduCuality/1.jpg';
+import educuality2 from '../img/EduCuality/2.jpg';
+import educuality3 from '../img/EduCuality/3.jpg';
+import educuality4 from '../img/EduCuality/4.jpg';
+import educuality5 from '../img/EduCuality/5.jpg';
+import educuality6 from '../img/EduCuality/6.jpg';
+import educuality7 from '../img/EduCuality/7.jpg';
 
-function EduCuality() {
+const images = [
+  educuality1,
+  educuality2,
+  educuality3,
+  educuality4,
+  educuality5,
+  educuality6,
+  educuality7,
+];
+
+export function EduCuality() {
   return (
     <div className='main-page'>
       <Swiper
@@ -34,21 +47,12 @@ function EduCuality() {
           type: 'fraction',
         }}
       >
-        <SwiperSlide>
-          <img src={educuality1} alt='educuality1' className='slide' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={educuality2} alt='educuality2' className='slide' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={educuality3} alt='educuality3' className='slide' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={educuality4} alt='educuality4' className='slide' />
-        </SwiperSlide>
+        {images.map((img, i) => (
+          <SwiperSlide key={i}>
+            <img src={img} alt={`educuality${i + 1}`} className='slide' />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );
 }
-
-export default EduCuality;

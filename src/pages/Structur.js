@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Structur() {
+export function Structur() {
   return (
     <div className='main-page main-container structur'>
       <a href='https://gukolomna.ru/obrazovanie/departments/'>Факультеты</a>
@@ -9,5 +9,3 @@ function Structur() {
     </div>
   );
 }
-
-export default Structur;

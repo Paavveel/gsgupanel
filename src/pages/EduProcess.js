@@ -1,6 +1,6 @@
 import React from 'react';
 
-function EduProcess() {
+export function EduProcess() {
   return (
     <div className='main-page main-container eduprocess'>
       <a href='https://gukolomna.ru/sveden/eduStandarts/'>
@@ -19,11 +19,9 @@ function EduProcess() {
       <a href='https://mega.nz/folder/6N8TiQJJ#5RqUTlH4hxySG2WJv6PHZw'>
         Расписание сессий
       </a>
-      <a href='https://gukolomna.ru/studentu/organizatsiya-uchebnogo-protsessa/'>
+      {/* <a href='https://gukolomna.ru/studentu/organizatsiya-uchebnogo-protsessa/'>
         Организация учебного процесса в 2021-2022 учебном году
-      </a>
+      </a> */}
     </div>
   );
 }
-
-export default EduProcess;

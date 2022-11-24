@@ -1,18 +1,18 @@
 import React from 'react';
 // import Swiper core and required modules
-import { Navigation, Pagination, A11y, Autoplay } from 'swiper';
+import { A11y, Autoplay, Navigation, Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/autoplay';
 
-import docs1 from '../img/docs-1.jpg';
+import docs1 from '../img/docs/1.jpg';
 
-function Docs() {
+export function Docs() {
   return (
     <div className='main-page'>
       <Swiper
@@ -38,5 +38,3 @@ function Docs() {
     </div>
   );
 }
-
-export default Docs;

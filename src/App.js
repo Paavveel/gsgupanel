@@ -1,32 +1,36 @@
 import './App.css';
 
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 // Components
-import Home from './pages/Home';
-import Info from './pages/Info';
-import Structur from './pages/Structur';
-import EduProcess from './pages/EduProcess';
-import Docs from './pages/Docs';
-import Abitur from './pages/Abitur';
-import Projects from './pages/Projects';
-import Tech from './pages/Tech';
-import EduCuality from './pages/EduCuality';
-import Contacts from './pages/Contacts';
 import Layout from './Layout';
-import NotFound from './pages/NotFound';
+import {
+  Abitur,
+  Contacts,
+  Docs,
+  EduCuality,
+  EduProcess,
+  Home,
+  Info,
+  NotFound,
+  Projects,
+  Structur,
+  Tech,
+} from './pages';
 
 function App() {
   return (
     <Routes>
       <Route path='/' element={<Layout />}>
-        <Route index element={<Home />} />
+        {/* <Route index element={<Home />} /> */}
+        <Route path='home' element={<Home />} />
         <Route path='info' element={<Info />} />
         <Route path='structur' element={<Structur />} />
         <Route path='eduprocess' element={<EduProcess />} />
         <Route path='docs' element={<Docs />} />
-        <Route path='abitur' element={<Abitur />} />
+        <Route index element={<Abitur />} />
+        {/* <Route path='abitur' element={<Abitur />} /> */}
         <Route path='projects' element={<Projects />} />
         <Route path='tech' element={<Tech />} />
         <Route path='educuality' element={<EduCuality />} />

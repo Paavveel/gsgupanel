@@ -1,6 +1,6 @@
 import React from 'react';
 
-function NotFound() {
+export function NotFound() {
   return (
     <div className='notfound page-section'>
       <h1>NOT FOUND</h1>
@@ -8,5 +8,3 @@ function NotFound() {
     </div>
   );
 }
-
-export default NotFound;

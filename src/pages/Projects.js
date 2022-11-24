@@ -1,19 +1,25 @@
 import React from 'react';
 // import Swiper core and required modules
-import { Navigation, Pagination, A11y, Autoplay } from 'swiper';
+import { A11y, Autoplay, Navigation, Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/autoplay';
 
-import proj1 from '../img/proj-1.jpg';
-import proj2 from '../img/proj-2.jpg';
+import proj1 from '../img/projects/1.jpg';
+import proj2 from '../img/projects/2.jpg';
+import proj3 from '../img/projects/3.jpg';
+import proj4 from '../img/projects/4.jpg';
+import proj5 from '../img/projects/5.jpg';
+import proj6 from '../img/projects/6.jpg';
 
-function Projects() {
+const images = [proj1, proj2, proj3, proj4, proj5, proj6];
+
+export function Projects() {
   return (
     <div className='main-page'>
       <Swiper
@@ -32,15 +38,12 @@ function Projects() {
           type: 'fraction',
         }}
       >
-        <SwiperSlide>
-          <img src={proj1} alt='abitur1' className='slide' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={proj2} alt='abitur2' className='slide' />
-        </SwiperSlide>
+        {images.map((img, i) => (
+          <SwiperSlide key={i}>
+            <img src={img} alt={`project${i + 1}`} className='slide' />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );
 }
-
-export default Projects;

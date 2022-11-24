@@ -1,23 +1,58 @@
 import React from 'react';
 // import Swiper core and required modules
-import { Navigation, Pagination, A11y, Autoplay } from 'swiper';
+import { A11y, Autoplay, Navigation, Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/autoplay';
 
-import mainymy1 from '../img/main-ymy1.jpg';
-import mainymy2 from '../img/main-ymy2.jpg';
-import mainymy3 from '../img/main-ymy3.jpg';
-import mainymy4 from '../img/main-ymy4.jpg';
-import mainymy5 from '../img/main-ymy5.jpg';
-import mainymy6 from '../img/main-ymy6.jpg';
+import main7 from '../img/home/1.jpg';
+import main16 from '../img/home/10.jpg';
+import main17 from '../img/home/11.jpg';
+import main18 from '../img/home/12.jpg';
+import main19 from '../img/home/13.jpg';
+import main8 from '../img/home/2.jpg';
+import main9 from '../img/home/3.jpg';
+import main10 from '../img/home/4.jpg';
+import main11 from '../img/home/5.jpg';
+import main12 from '../img/home/6.jpg';
+import main13 from '../img/home/7.jpg';
+import main14 from '../img/home/8.jpg';
+import main15 from '../img/home/9.jpg';
+import main1 from '../img/home/main-ymy1.jpg';
+import main2 from '../img/home/main-ymy2.jpg';
+import main3 from '../img/home/main-ymy3.jpg';
+import main4 from '../img/home/main-ymy4.jpg';
+import main5 from '../img/home/main-ymy5.jpg';
+import main6 from '../img/home/main-ymy6.jpg';
 
-function Home() {
+const images = [
+  main1,
+  main2,
+  main3,
+  main4,
+  main5,
+  main6,
+  main7,
+  main8,
+  main9,
+  main10,
+  main11,
+  main12,
+  main13,
+  main14,
+  main15,
+  main16,
+  main17,
+  main18,
+  main19,
+];
+
+export function Home() {
   return (
     <div className='main-page'>
       <Swiper
@@ -36,27 +71,12 @@ function Home() {
           type: 'fraction',
         }}
       >
-        <SwiperSlide>
-          <img src={mainymy1} alt='mainymy1' className='slide' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={mainymy2} alt='mainymy2' className='slide' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={mainymy3} alt='mainymy3' className='slide' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={mainymy4} alt='mainymy4' className='slide' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={mainymy5} alt='mainymy5' className='slide' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={mainymy6} alt='mainymy6' className='slide' />
-        </SwiperSlide>
+        {images.map((img, i) => (
+          <SwiperSlide key={i}>
+            <img src={img} alt={`main${i + 1}`} className='slide' />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );
 }
-
-export default Home;
