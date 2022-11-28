@@ -7,14 +7,12 @@ function SideMenu() {
   return (
     <div className='main-sidemenu'>
       <div className='main-nav'>
-        {/* <NavLink to='/'>Главная</NavLink> */}
-        <NavLink to='home'>Главная</NavLink>
+        <NavLink to='/'>Главная</NavLink>
         <NavLink to='info'>Общая информация</NavLink>
         <NavLink to='structur'>Структурные подразделения</NavLink>
         <NavLink to='eduprocess'>Учебный процесс</NavLink>
         <NavLink to='docs'>Документы</NavLink>
-        <NavLink to='/'>Абитуриенту 2023</NavLink>
-        {/* <NavLink to='abitur'>Абитуриенту 2023</NavLink> */}
+        <NavLink to='abitur'>Абитуриенту 2023</NavLink>
         <NavLink to='projects'>Проекты</NavLink>
         <NavLink to='tech'>Технологии</NavLink>
         <NavLink to='educuality'>Качество образования</NavLink>
