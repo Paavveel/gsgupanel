@@ -13,10 +13,10 @@ export function EduProcess() {
       <a href='https://gukolomna.ru/sveden/education/'>
         Календарный учебный график
       </a>
-      <a href='https://mega.nz/folder/mdtRCCgZ#unl8cyEEjrA5wXKduqsrsA'>
+      <a href='https://gukolomna.ru/studentu/schedule/'>
         Расписание занятий
       </a>
-      <a href='https://gukolomna.ru/studentu/schedule/'>
+      <a href='https://mega.nz/folder/6N8TiQJJ#5RqUTlH4hxySG2WJv6PHZw'>
         Расписание сессий
       </a>
       {/* <a href='https://gukolomna.ru/studentu/organizatsiya-uchebnogo-protsessa/'>
