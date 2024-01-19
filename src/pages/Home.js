@@ -37,24 +37,24 @@ import main23 from '../img/home/23.jpg';
 import main24 from '../img/home/main_1.jpg';
 import main25 from '../img/home/main_2.jpg';
 import main26 from '../img/home/main_3.jpg';
-import main25 from '../img/home/main_4.jpg';
-import main26 from '../img/home/main_5.jpg';
-import main27 from '../img/home/main_6.jpg';
-import main28 from '../img/home/main_7.jpg';
-import main29 from '../img/home/main_8.jpg';
-import main30 from '../img/home/main_9.jpg';
-import main31 from '../img/home/main_10.jpg';
-import main32 from '../img/home/main_11.jpg';
-import main33 from '../img/home/main_12.jpg';
-import main34 from '../img/home/main_13.jpg';
-import main35 from '../img/home/main_14.jpg';
-import main36 from '../img/home/main_15.jpg';
-import main37 from '../img/home/main_16.jpg';
-import main38 from '../img/home/main_17.jpg';
-import main39 from '../img/home/main_18.jpg';
-import main40 from '../img/home/main_19.jpg';
-import main41 from '../img/home/main_20.jpg';
-import main42 from '../img/home/main_21.jpg';
+import main27 from '../img/home/main_4.jpg';
+import main28 from '../img/home/main_5.jpg';
+import main29 from '../img/home/main_6.jpg';
+import main30 from '../img/home/main_7.jpg';
+import main31 from '../img/home/main_8.jpg';
+import main32 from '../img/home/main_9.jpg';
+import main33 from '../img/home/main_10.jpg';
+import main34 from '../img/home/main_11.jpg';
+import main35 from '../img/home/main_12.jpg';
+import main36 from '../img/home/main_13.jpg';
+import main37 from '../img/home/main_14.jpg';
+import main38 from '../img/home/main_15.jpg';
+import main39 from '../img/home/main_16.jpg';
+import main40 from '../img/home/main_17.jpg';
+import main41 from '../img/home/main_18.jpg';
+import main42 from '../img/home/main_19.jpg';
+import main43 from '../img/home/main_20.jpg';
+import main44 from '../img/home/main_21.jpg';
 
 const images = [
   main1,
@@ -101,6 +101,8 @@ const images = [
   main40,
   main41,
   main42,
+  main43,
+  main44,
 ];
 
 export function Home() {
