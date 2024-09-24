@@ -13,9 +13,8 @@ import "swiper/css/pagination";
 import info1 from "../img/info/1.jpg";
 import info2 from "../img/info/2.jpg";
 import info3 from "../img/info/3.jpg";
-import info4 from "../img/info/4.jpg";
 
-const images = [info1, info2, info3, info4];
+const images = [info1, info2, info3];
 
 export function Info() {
   return (
