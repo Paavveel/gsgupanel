@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gsgupanel/static/css/main.762e8d0d.css",
-    "main.js": "/gsgupanel/static/js/main.7ab4b634.js",
+    "main.js": "/gsgupanel/static/js/main.4a0a75d9.js",
     "static/media/10.jpg": "/gsgupanel/static/media/10.4f18a3a298e5c0341112.jpg",
     "static/media/25.jpg": "/gsgupanel/static/media/25.6f4cbc9a3127c5e02f1e.jpg",
     "static/media/24.jpg": "/gsgupanel/static/media/24.ddc5799f6e507a3b9bc6.jpg",
@@ -55,14 +55,26 @@
     "static/media/gsgu-logo.png": "/gsgupanel/static/media/gsgu-logo.6c13ad215bb4c18d3ca1.png",
     "static/media/ab2.jpg": "/gsgupanel/static/media/ab2.aa7d12bafcd3b60d88e0.jpg",
     "static/media/ab1.jpg": "/gsgupanel/static/media/ab1.d4a6759b6535ad5dcc88.jpg",
-    "static/media/qr-vk.svg": "/gsgupanel/static/media/qr-vk.e92644802c9b49494cbfb004b710a608.svg",
-    "static/media/qr-tg.svg": "/gsgupanel/static/media/qr-tg.de362359674d2d570f085de0d5d3086b.svg",
+    "static/media/3.JPG": "/gsgupanel/static/media/3.b786910c3a5a6f2c8c46.JPG",
+    "static/media/5.JPG": "/gsgupanel/static/media/5.cfc31e2c89bd410d1b51.JPG",
+    "static/media/11.JPG": "/gsgupanel/static/media/11.574680623678b443b961.JPG",
+    "static/media/9.JPG": "/gsgupanel/static/media/9.512ea96cd75e90e34c9d.JPG",
+    "static/media/7.JPG": "/gsgupanel/static/media/7.0c69e46be3bd8494b993.JPG",
+    "static/media/2.JPG": "/gsgupanel/static/media/2.07ee67ba90210bd5b523.JPG",
+    "static/media/4.JPG": "/gsgupanel/static/media/4.ce0a09d995687c39ddab.JPG",
+    "static/media/1.JPG": "/gsgupanel/static/media/1.ea5c70f59239b8e7ac8f.JPG",
+    "static/media/8.JPG": "/gsgupanel/static/media/8.c021e9b085533dd12d9c.JPG",
+    "static/media/6.JPG": "/gsgupanel/static/media/6.05122bb0ac8dd714a486.JPG",
+    "static/media/10.JPG": "/gsgupanel/static/media/10.db89ad5ae5cb95273f77.JPG",
+    "static/media/12.JPG": "/gsgupanel/static/media/12.2df8ab5b1cbfd3f88a59.JPG",
+    "static/media/qr-vk.svg": "/gsgupanel/static/media/qr-vk.2ed3923fed973a5ad9c10a836a90a9d3.svg",
+    "static/media/qr-tg.svg": "/gsgupanel/static/media/qr-tg.d052da6cabaabf334c70991bfd6bafbe.svg",
     "index.html": "/gsgupanel/index.html",
     "main.762e8d0d.css.map": "/gsgupanel/static/css/main.762e8d0d.css.map",
-    "main.7ab4b634.js.map": "/gsgupanel/static/js/main.7ab4b634.js.map"
+    "main.4a0a75d9.js.map": "/gsgupanel/static/js/main.4a0a75d9.js.map"
   },
   "entrypoints": [
     "static/css/main.762e8d0d.css",
-    "static/js/main.7ab4b634.js"
+    "static/js/main.4a0a75d9.js"
   ]
 }
