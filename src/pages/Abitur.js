@@ -53,7 +53,6 @@ import fmfh9 from "../img/abitur/fmfh/9.JPG";
 import fmfh10 from "../img/abitur/fmfh/10.JPG";
 import fmfh11 from "../img/abitur/fmfh/11.JPG";
 import fmfh12 from "../img/abitur/fmfh/12.JPG";
-import fmfh12 from "../img/abitur/fmfh/12.JPG";
 
 import pf1 from "../img/abitur/pf/1.jpg";
 import pf2 from "../img/abitur/pf/2.jpg";
