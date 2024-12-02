@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gsgupanel/static/css/main.762e8d0d.css",
-    "main.js": "/gsgupanel/static/js/main.0131a622.js",
+    "main.js": "/gsgupanel/static/js/main.70366b3c.js",
     "static/media/10.jpg": "/gsgupanel/static/media/10.94d726fbb16aa070ea80.jpg",
     "static/media/25.jpg": "/gsgupanel/static/media/25.6f4cbc9a3127c5e02f1e.jpg",
     "static/media/24.jpg": "/gsgupanel/static/media/24.ddc5799f6e507a3b9bc6.jpg",
@@ -54,9 +54,7 @@
     "static/media/6.jpg": "/gsgupanel/static/media/6.edf15448e4ff6ea663f3.jpg",
     "static/media/gsgu-logo.png": "/gsgupanel/static/media/gsgu-logo.6c13ad215bb4c18d3ca1.png",
     "static/media/5.JPG": "/gsgupanel/static/media/5.f526c9dd4d86da91f59a.JPG",
-    "static/media/ab2.jpg": "/gsgupanel/static/media/ab2.aa7d12bafcd3b60d88e0.jpg",
     "static/media/2.JPG": "/gsgupanel/static/media/2.67c57ee682e4ad42d507.JPG",
-    "static/media/ab1.jpg": "/gsgupanel/static/media/ab1.d4a6759b6535ad5dcc88.jpg",
     "static/media/6.JPG": "/gsgupanel/static/media/6.05122bb0ac8dd714a486.JPG",
     "static/media/4.JPG": "/gsgupanel/static/media/4.ce0a09d995687c39ddab.JPG",
     "static/media/8.JPG": "/gsgupanel/static/media/8.eea06e5845bcccc3175e.JPG",
@@ -69,14 +67,16 @@
     "static/media/13.JPG": "/gsgupanel/static/media/13.f98419bf2eca7756bcaf.JPG",
     "static/media/12.JPG": "/gsgupanel/static/media/12.2df8ab5b1cbfd3f88a59.JPG",
     "static/media/14.JPG": "/gsgupanel/static/media/14.64c10c12f0c708789d7e.JPG",
+    "static/media/ab2.jpg": "/gsgupanel/static/media/ab2.e356afe6669d6a44d9bd.jpg",
+    "static/media/ab1.jpg": "/gsgupanel/static/media/ab1.e3fb80b81e9e2b1ad54d.jpg",
     "static/media/qr-vk.svg": "/gsgupanel/static/media/qr-vk.2ed3923fed973a5ad9c10a836a90a9d3.svg",
     "static/media/qr-tg.svg": "/gsgupanel/static/media/qr-tg.d052da6cabaabf334c70991bfd6bafbe.svg",
     "index.html": "/gsgupanel/index.html",
     "main.762e8d0d.css.map": "/gsgupanel/static/css/main.762e8d0d.css.map",
-    "main.0131a622.js.map": "/gsgupanel/static/js/main.0131a622.js.map"
+    "main.70366b3c.js.map": "/gsgupanel/static/js/main.70366b3c.js.map"
   },
   "entrypoints": [
     "static/css/main.762e8d0d.css",
-    "static/js/main.0131a622.js"
+    "static/js/main.70366b3c.js"
   ]
 }
