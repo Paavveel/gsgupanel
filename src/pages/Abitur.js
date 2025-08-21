@@ -263,7 +263,7 @@ export function Abitur() {
           </SwiperSlide>
         ))}
       </Swiper> */}
-      <h5>Раздел находится в разработке</h5>
+      <h5>в разработке...</h5>
     </div>
   );
 }
