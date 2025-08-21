@@ -12,8 +12,10 @@ import 'swiper/css/pagination';
 
 import tech1 from '../img/tech/1.jpg';
 import tech2 from '../img/tech/2.jpg';
+import tech3 from '../img/tech/3.jpg';
+import tech4 from '../img/tech/4.jpg';
 
-const images = [tech1, tech2];
+const images = [tech1, tech2, tech3, tech4];
 
 export function Tech() {
   return (

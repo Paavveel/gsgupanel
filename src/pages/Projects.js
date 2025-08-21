@@ -44,7 +44,7 @@ import proj31 from "../img/projects/31.jpg";
 import proj32 from "../img/projects/32.jpg";
 import proj33 from "../img/projects/33.jpg";
 import proj34 from "../img/projects/34.jpg";
-import proj35 from "../img/projects/35.jpg";
+// import proj35 from "../img/projects/35.jpg";
 
 const images = [
   proj1,
@@ -81,7 +81,7 @@ const images = [
   proj32,
   proj33,
   proj34,
-  proj35,
+  // proj35,
 ];
 
 export function Projects() {

@@ -10,56 +10,57 @@ import "swiper/css/autoplay";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import main1 from "../img/home/1.jpg";
-import main2 from "../img/home/2.jpg";
-import main3 from "../img/home/3.jpg";
-import main4 from "../img/home/4.jpg";
-import main5 from "../img/home/5.jpg";
-import main6 from "../img/home/6.jpg";
-import main7 from "../img/home/7.jpg";
-import main8 from "../img/home/8.jpg";
-import main9 from "../img/home/9.jpg";
-import main10 from "../img/home/10.jpg";
-import main11 from "../img/home/11.jpg";
-import main12 from "../img/home/12.jpg";
-import main13 from "../img/home/13.jpg";
-import main14 from "../img/home/14.jpg";
-import main15 from "../img/home/15.jpg";
-import main16 from "../img/home/16.jpg";
-import main17 from "../img/home/17.jpg";
-import main18 from "../img/home/18.jpg";
-import main19 from "../img/home/19.jpg";
-import main20 from "../img/home/20.jpg";
-import main21 from "../img/home/21.jpg";
-import main22 from "../img/home/22.jpg";
-import main23 from "../img/home/23.jpg";
-import main24 from "../img/home/24.jpg";
-import main25 from "../img/home/25.jpg";
-import main26 from "../img/home/26.jpg";
-import main27 from "../img/home/27.jpg";
-import main28 from "../img/home/28.jpg";
-import main29 from "../img/home/29.jpg";
-import main30 from "../img/home/30.jpg";
-import main31 from "../img/home/31.jpg";
-import main32 from "../img/home/32.jpg";
-import main33 from "../img/home/33.jpg";
-import main34 from "../img/home/34.jpg";
-import main35 from "../img/home/35.jpg";
-import main36 from "../img/home/36.jpg";
-import main37 from "../img/home/37.jpg";
-import main38 from "../img/home/38.jpg";
-import main39 from "../img/home/39.jpg";
-import main40 from "../img/home/40.jpg";
-import main41 from "../img/home/41.jpg";
-import main42 from "../img/home/42.jpg";
-import main43 from "../img/home/43.jpg";
-import main44 from "../img/home/44.jpg";
-import main45 from "../img/home/45.jpg";
-import main46 from "../img/home/46.jpg";
-import main47 from "../img/home/47.jpg";
-import main48 from "../img/home/48.jpg";
-import main49 from "../img/home/49.jpg";
-import main50 from "../img/home/50.jpg";
+import main1 from "../img/home/1.jpeg";
+import main2 from "../img/home/2.jpeg";
+import main3 from "../img/home/3.jpeg";
+import main4 from "../img/home/4.jpeg";
+import main5 from "../img/home/5.jpeg";
+import main6 from "../img/home/6.jpeg";
+import main7 from "../img/home/7.jpeg";
+import main8 from "../img/home/8.jpeg";
+import main9 from "../img/home/9.jpeg";
+import main10 from "../img/home/10.jpeg";
+import main11 from "../img/home/11.jpeg";
+import main12 from "../img/home/12.jpeg";
+import main13 from "../img/home/13.jpeg";
+import main14 from "../img/home/14.jpeg";
+import main15 from "../img/home/15.jpeg";
+import main16 from "../img/home/16.jpeg";
+import main17 from "../img/home/17.jpeg";
+import main18 from "../img/home/18.jpeg";
+import main19 from "../img/home/19.jpeg";
+import main20 from "../img/home/20.jpeg";
+import main21 from "../img/home/21.jpeg";
+import main22 from "../img/home/22.jpeg";
+import main23 from "../img/home/23.jpeg";
+import main24 from "../img/home/24.jpeg";
+import main25 from "../img/home/25.jpeg";
+import main26 from "../img/home/26.jpeg";
+import main27 from "../img/home/27.jpeg";
+import main28 from "../img/home/28.jpeg";
+import main29 from "../img/home/29.jpeg";
+import main30 from "../img/home/30.jpeg";
+import main31 from "../img/home/31.jpeg";
+import main32 from "../img/home/32.jpeg";
+import main33 from "../img/home/33.jpeg";
+import main34 from "../img/home/34.jpeg";
+import main35 from "../img/home/35.jpeg";
+import main36 from "../img/home/36.jpeg";
+import main37 from "../img/home/37.jpeg";
+import main38 from "../img/home/38.jpeg";
+import main39 from "../img/home/39.jpeg";
+import main40 from "../img/home/40.jpeg";
+import main41 from "../img/home/41.jpeg";
+import main42 from "../img/home/42.jpeg";
+import main43 from "../img/home/43.jpeg";
+import main44 from "../img/home/44.jpeg";
+import main45 from "../img/home/45.jpeg";
+import main46 from "../img/home/46.jpeg";
+import main47 from "../img/home/47.jpeg";
+import main48 from "../img/home/48.jpeg";
+import main49 from "../img/home/49.jpeg";
+import main50 from "../img/home/50.jpeg";
+import main51 from "../img/home/50.jpeg";
 
 const images = [
   main1,
@@ -112,6 +113,7 @@ const images = [
   main48,
   main49,
   main50,
+  main51
 ];
 
 export function Home() {

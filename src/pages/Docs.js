@@ -10,7 +10,7 @@ import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import docs1 from '../img/docs/1.jpg';
+import docs1 from '../img/docs/1.png';
 
 export function Docs() {
   return (

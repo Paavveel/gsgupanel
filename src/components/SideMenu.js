@@ -12,7 +12,7 @@ function SideMenu() {
         <NavLink to="structur">Структурные подразделения</NavLink>
         <NavLink to="eduprocess">Учебный процесс</NavLink>
         <NavLink to="docs">Документы</NavLink>
-        <NavLink to="abitur">Абитуриенту 2025</NavLink>
+        <NavLink to="abitur">Абитуриенту 2026</NavLink>
         <NavLink to="projects">Проекты</NavLink>
         <NavLink to="tech">Технологии</NavLink>
         <NavLink to="educuality">Качество образования</NavLink>

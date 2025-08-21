@@ -17,6 +17,7 @@ import educuality4 from "../img/EduCuality/4.jpg";
 import educuality5 from "../img/EduCuality/5.jpg";
 import educuality6 from "../img/EduCuality/6.jpg";
 import educuality7 from "../img/EduCuality/7.jpg";
+import educuality8 from "../img/EduCuality/8.jpg";
 
 const images = [
   educuality1,
@@ -26,6 +27,7 @@ const images = [
   educuality5,
   educuality6,
   educuality7,
+  educuality8,
 ];
 
 export function EduCuality() {
